@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Using pb-translit</title>
+        <style>
+            pb-translit {
+                margin-bottom: 20px;
+            }
+        </style>
+        <script type="module" src="../node_modules/@teipublisher/pb-components/src/pb-page.js"></script>
+        <script type="module" src="../node_modules/@teipublisher/pb-components/src/pb-view.js"></script>
+        <script type="module" src="../src/pb-translit.js"></script>
+        <script>
+          function deva2iast(e) {
+                  alert ('Would convert to IAST, if this function were better');
+          }
+</script>
+    </head>
+    <body>
+        <h1>Using pb-translit</h1>
+
+        <pb-page locales="../i18n/{{ns}}/{{lng}}.json">
+          <pb-translit/>
+        </pb-page>
+        
+        <div id="view1">
+          <p>अत्र</p>
+        </div>
+        <anchor id="toggleIAST" onClick="deva2iast()"/>
+    </body>
+</html>

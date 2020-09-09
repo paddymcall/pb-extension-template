@@ -1,7 +1,7 @@
 {
-  "name": "@teipublisher/pb-extension-template",
-  "version": "1.0.0",
-  "description": "A demo component to be used as template for extending pb-components",
+  "name": "pb-extension-sarit",
+  "version": "0.1.0",
+  "description": "Extension for tei-publisher-app for SARIT (based on @teipublisher/pb-extension-template)",
   "main": "pb-extension-bundle.js",
   "scripts": {
     "start": "npm run docs && es-dev-server --node-resolve --watch --open --app-index index.html",
@@ -11,9 +11,9 @@
     "clean": "rimraf dist i18n/common images css lib custom-elements.json",
     "prepare": "npm run docs && npm run build:production"
   },
-  "author": "Wolfgang Meier",
+  "author": "Patrick McAllister",
   "license": "GPL-3.0-or-later",
-  "repository": "https://gitlab.existsolutions.com/tei-publisher/pb-extension-template.git",
+  "repository": "git+https://github.com/paddymcall/pb-extension-template.git",
   "dependencies": {
     "@teipublisher/pb-components": "^0.9.31"
   },

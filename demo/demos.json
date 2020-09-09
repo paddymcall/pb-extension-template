@@ -1,5 +1,8 @@
 {
-    "pb-clipboard": {
-        "demo/pb-clipboard.html": "Clipboard Demo"
-    }
+        "pb-clipboard": {
+                "demo/pb-clipboard.html": "Clipboard Demo"
+        },
+        "pb-translit": {
+                "demo/pb-translit.html": "Transliteration Demo"
+        }
 }

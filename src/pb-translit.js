@@ -50,7 +50,7 @@ export class PbTranslit extends pbMixin(LitElement) {
 
         _endUpdate() {
                 console.log("done updating the page");
-                document.getElementById('sarit-jsupdate').click();
+                document.getElementById('sarit-update').click();
         }
 
         static get styles() {

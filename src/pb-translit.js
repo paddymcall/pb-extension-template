@@ -45,6 +45,10 @@ export class PbTranslit extends pbMixin(LitElement) {
 <input type="hidden" name="encode" value="devanagari"/>
 <input type="submit" value="देव"/>
 </form>
+<form>
+<input type="hidden" name="encode" value="slp1"/>
+<input type="submit" value="SLP1"/>
+</form>
 </div>`;
         }
 
@@ -58,16 +62,16 @@ export class PbTranslit extends pbMixin(LitElement) {
             :host {
                 display: block;
             }
-            h3 {
-                margin: 0;
-                font-size: .85em;
-                font-weight: normal;
-                color: #3a3a3a;
-            }
             div {
                 display: flex;
                 align-items: center;
                 padding: 0 16px;
+            }
+            input[type=submit] {
+                background-color: rgb(209, 218, 224);
+                border: none;
+                font-weight: bold;
+                font-size: large;
             }
         `;
         }
